@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav a {
+    transition: color 5ms ease-in-out;
+}
+
+nav a.active {
+    color: red;
+}
